@@ -15,8 +15,13 @@
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.google.android.gms.analytics"
-          android:versionCode="730"
-          android:versionName="7.3.0">
+          android:versionCode="750"
+          android:versionName="7.5.0">
     <uses-sdk android:minSdkVersion="10"/>
+
+    <!-- Include required permissions for Analytics to run. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application />
 </manifest>
