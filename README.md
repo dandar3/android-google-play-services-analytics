@@ -6,7 +6,7 @@ Eclipse library project based on:<br/>
 
 **Requires:**<br/>
 - `Android 2.3 (API 10) SDK Platform`
-- [dandar3/android-google-play-services-basement](https://github.com/dandar3/android-google-play-services-basement/)
+- [dandar3/android-google-play-services-analytics-impl](https://github.com/dandar3/android-google-play-services-analytics-impl/)
 
 **References:**<br/>
 - https://developers.google.com/android/guides/releases
