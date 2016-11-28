@@ -8,5 +8,6 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/google-play-services-analytics-impl"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/google-play-services-base"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/google-play-services-basement"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/google-play-services-tagmanager-v4-impl"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
