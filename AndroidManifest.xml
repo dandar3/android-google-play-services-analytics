@@ -14,8 +14,8 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.google.android.gms.analytics"
-    android:versionCode="1120"
-    android:versionName="11.2.0">
+    android:versionCode="1140"
+    android:versionName="11.4.0">
     <uses-sdk android:minSdkVersion="14"/>
 
     <!-- Include required permissions for Analytics to run. -->
@@ -25,5 +25,11 @@
     <!-- Optional permission for Analytics to run. -->
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
 
-    <application/>
+    <application>
+        <receiver android:name="com.google.android.gms.analytics.AnalyticsReceiver" android:enabled="true" android:exported="false">
+        </receiver>
+        <service android:name="com.google.android.gms.analytics.AnalyticsService" android:enabled="true" android:exported="false"/>
+        <service android:name="com.google.android.gms.analytics.AnalyticsJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:enabled="true" android:exported="false"/>
+    </application>
+
 </manifest>
